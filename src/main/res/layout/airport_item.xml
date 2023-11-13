@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="horizontal"
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/AirportItemIATA"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:layout_gravity="start"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/AirportItemName"
+        android:padding="10dp"
+        android:gravity="center_vertical"
+        android:layout_gravity="start"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="65"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/saveBtn"
+        android:src="@drawable/save"
+        android:scaleType="fitCenter"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="15"
+        android:backgroundTint="#009a9a" />
+
+</LinearLayout>
